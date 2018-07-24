@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LemonadeStandX
 {
-    class LemonadeStand
+    class LemonadeStand: IMultiStand
     {
 
         public string Name { get; set; }
