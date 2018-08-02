@@ -44,29 +44,7 @@ namespace LemonadeStandX
 
         //+++++++INTERFACE FOR OTHER STANDS+++++++++++
 
-        interface IMultiStand
-        {
-            string Name { get; set; }
-            decimal CupsPerDay { get; set; }
-            decimal CostPerCup { get; set; }
-            decimal PricePerCup { get; set; }
-
-             decimal void TotalDailyRevenue()
-            {
-                return CupsPerDay * PricePerCup;
-            }
-
-             decimal void TotalDailyCost()
-            {
-                return CupsPerDay * CostPerCup;
-            }
-
-            decimal void  TotalDailyProfit()
-            {
-                return TotalDailyRevenue() - TotalDailyCost();
-
-            }
-        }
+       
 
     }
 }
