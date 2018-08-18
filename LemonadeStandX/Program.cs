@@ -12,8 +12,7 @@ namespace LemonadeStandX
             Console.WriteLine("What's your name?");
             string ownerName = Console.ReadLine();
 
-            Console.WriteLine(ownerName + " how many lemonade stands do you want to open?");
-            int numberOfLemonadeStands = int.Parse(Console.ReadLine());
+            int numberOfLemonadeStands = UI.GetIntegerFromUser(ownerName + " how many lemonade stands do you want to open?");
 
             //Create a new instance of a lemonadeCorp
             LemonCorp LemonBoss = new LemonCorp();
