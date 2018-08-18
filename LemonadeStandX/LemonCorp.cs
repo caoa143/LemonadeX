@@ -7,10 +7,8 @@ namespace LemonadeStandX
 {
     class LemonCorp
     {
-
         public string Name { get; set; }
         public List<LemonadeStand> Locations { get; set; } = new List<LemonadeStand>();
-
 
         public decimal GetCorpTotalDailyRevenue()
         {
@@ -41,10 +39,5 @@ namespace LemonadeStandX
             }
             return grandTotalProfit;
         }
-
-        //+++++++INTERFACE FOR OTHER STANDS+++++++++++
-
-       
-
     }
 }
