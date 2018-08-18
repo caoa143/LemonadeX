@@ -6,7 +6,6 @@ namespace LemonadeStandX
 {
     class LemonadeStand: IMultiStand
     {
-
         public string Name { get; set; }
         public decimal CupsPerDay { get; set; }
         public decimal CostPerCup { get; set; }
@@ -25,13 +24,6 @@ namespace LemonadeStandX
         public decimal TotalDailyProfit()
         {
             return TotalDailyRevenue() - TotalDailyCost();
-
         }
     }
 }
-//Source tree commit test
-
-//branch test
-
-//branch test2
-

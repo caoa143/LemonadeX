@@ -6,7 +6,6 @@ namespace LemonadeStandX
 {
     class PopsicleStand: IMultiStand
     {
-
         public string Name { get; set; }
         public decimal CupsPerDay { get; set; }
         public decimal CostPerCup { get; set; }
@@ -25,7 +24,6 @@ namespace LemonadeStandX
         public decimal TotalDailyProfit()
         {
             return TotalDailyRevenue() - TotalDailyCost();
-
         }
     }
 }

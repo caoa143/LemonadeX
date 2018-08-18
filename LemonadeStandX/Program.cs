@@ -6,33 +6,14 @@ namespace LemonadeStandX
     class Program
     {
         static void Main(string[] args)
-
-
         {
-            //+++++++++++INTEFACE+++++++++++++++++++++=
-
-
-
-
-
-
-
-
-
-
-
-            //__________________________________________________________________________
-
             Console.WriteLine("Hi!");
             Console.WriteLine("Welcome to Lemonade Stand Headquarters.");
             Console.WriteLine("What's your name?");
             string ownerName = Console.ReadLine();
 
-
-
             Console.WriteLine(ownerName + " how many lemonade stands do you want to open?");
             int numberOfLemonadeStands = int.Parse(Console.ReadLine());
-
 
             //Create a new instance of a lemonadeCorp
             LemonCorp LemonBoss = new LemonCorp();
@@ -76,12 +57,7 @@ namespace LemonadeStandX
             Console.WriteLine("Total Corp Cost is: " + LemonBoss.GetCorpTotalDailyCost());
             Console.WriteLine("Total Corp Profit is: " + LemonBoss.GetCorpTotalDailyProfit());
 
-
             Console.ReadLine();
-
-
         }
     }
 }
-//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
